@@ -75,7 +75,7 @@ def on_message(ws, message):
 
             if last_rsi > RSI_OVERBOUGHT:
                 if in_posicion:
-                    print('\x1b[5;37;42m' + "SELL, SELL, SELL" + '\x1b[0')
+                    print('\x1b[5;37;42m' + "VENDE" + '\x1b[0')
                     # Acá va lógica de venta
                     order_succeded = client.create_order(SIDE_SELL, TRADE_QUANTITY, TRADE_SYMBOL)
                     if order_succeded:
@@ -87,7 +87,7 @@ def on_message(ws, message):
                 if in_posicion:
                     print("Está oversold, pero ya está en posición, nada que hacer")
                 else:
-                    print('\x1b[5;37;41m' + "BUY, BUY, BUY" + '\x1b[0m')
+                    print('\x1b[5;37;41m' + "COMPRA" + '\x1b[0m')
                     # Acá va lógica de compra
                     order_succeded = client.create_order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL)
                     if order_succeded:
