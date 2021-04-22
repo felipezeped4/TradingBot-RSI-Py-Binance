@@ -3,6 +3,7 @@
 * Este bot está diseñado para realizar trades en la plataforma Binance.
 * Utiliza Python 3.5 o superior
 * Actualmente utiliza el indicador RSI para calcular si realiza o no un trade.
+* No es de mi total autoría, está basado en otro desarrollo.. (En cuanto recuerde la documentación/video lo pondré)
 
 
 
@@ -21,7 +22,7 @@ Utilizar el administrador de paquetes PIP [pip](https://pip.pypa.io/en/stable/) 
 ```
 
 ## Configuración de uso
-* Esta versión 0.1 tiene pre-configurados los parámetros por defecto que utiliza el algoritmo RSI. En caso de requerir customización, se debe hacer en el código, en los siguientes parámetros:
+* Esta versión 0.1 tiene pre-configurados los parámetros por defecto que utiliza el algoritmo RSI. En caso de requerir customización, se debe hacer en el código en los siguientes parámetros:
 
 ```python    
     RSI_PERIOD = 14     #Se encuentra en la línea 15.
@@ -47,7 +48,7 @@ Utilizar el administrador de paquetes PIP [pip](https://pip.pypa.io/en/stable/) 
     TRADE_QUANTITY = 'ACÁ_VA_EL_MONTO_A_TRADEAR' # Se encuentra en la línea 19 (admite decimales)
 ```
 
-* En el archivo config.py se deben ingresar la ApiKey y ApiSecret, los cuales se deben obtener deL sitio web de Binance siguiendo la documentación [¿Cómo crear una clave API?](https://www.binance.com/es/support/faq/360002502072)
+* En el archivo config.py se deben ingresar la ApiKey y ApiSecret, los cuales se deben obtener del sitio web de Binance siguiendo la documentación [¿Cómo crear una clave API?](https://www.binance.com/es/support/faq/360002502072)
 
 ```python
     API_KEY = "Entre estas comillas va tu API KEY"
