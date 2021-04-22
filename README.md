@@ -2,10 +2,14 @@
 
 * Este bot está diseñado para realizar trades en la plataforma Binance.
 * Utiliza Python 3.5 o superior
-* Actualmente utiliza el indicador RSI para calcular si realiza o no un trade.
+* Actualmente utiliza el [indicador RSI](https://academy.binance.com/es/articles/what-is-the-rsi-indicator) para calcular si realiza o no un trade.
 * No es de mi total autoría, está basado en otro desarrollo.. (En cuanto recuerde la documentación/video lo pondré)
 
+## Disclaimer!
 
+* Este bot fue hecho con propósitos de aprendizaje y si bien puede utilizarse para realizar trade, se recomienda hacerlo con cautela por los siguientes motivos:
+1. No ha sido probado de manera extensa.
+2. El indicador RSI por si solo, puede generar compras/ventas en puntos previos al máximo de cada período, por lo cual es ideal poder ocuparlo con otros indicadores
 
 ## Installation
 
@@ -54,3 +58,8 @@ Utilizar el administrador de paquetes PIP [pip](https://pip.pypa.io/en/stable/) 
     API_KEY = "Entre estas comillas va tu API KEY"
     API_SECRET = "Entre estas comillas va tu API SECRET"
 ```
+
+## Referencias
+* [Binance Api]()
+* [Indicador RSI](https://academy.binance.com/es/articles/what-is-the-rsi-indicator)
+* [WebSocket Streams](https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md)
