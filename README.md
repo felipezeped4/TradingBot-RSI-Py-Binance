@@ -29,7 +29,7 @@ Utilizar el administrador de paquetes PIP [pip](https://pip.pypa.io/en/stable/) 
 ```
 
 * Dependiendo del **símbolo** y del **tiempo** que se desee recolectar los datos, se debe modificar la siguiente línea con el parámetro indicado en la documentación:
-1. Para el tiempo: [BinanceAPI](https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md#klinecandlestick-streams)
+1. Para el tiempo: Referir a la documentación de [Binance API](https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md#klinecandlestick-streams)
 2. Para el símbolo de trade: Tomar de Binance según moneda en análisis. Ej: BNB/USDT se remueve el "/" y queda BNBUSDT 
 
 ```python
