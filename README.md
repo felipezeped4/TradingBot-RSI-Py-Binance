@@ -1,6 +1,7 @@
 # Bot Binance con RSI
 
 * Este bot está diseñado para realizar trades en la plataforma Binance.
+* Utiliza Python 3.5 o superior
 * Actualmente utiliza el indicador RSI para calcular si realiza o no un trade.
 
 
