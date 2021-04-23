@@ -20,7 +20,7 @@ s = pygame.mixer.Sound("sounds/sell.mp3")
 SOCKET = "wss://stream.binance.com:9443/ws/thetabnb@kline_1m"
 
 ### Parámetros para cálculo RSI y órdenes Compra/Venta
-RSI_PERIOD = 2
+RSI_PERIOD = 14
 RSI_OVERBOUGHT = 70
 RSI_OVERSOLD = 30
 TRADE_SYMBOL = 'THETABNB'
